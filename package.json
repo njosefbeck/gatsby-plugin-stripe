@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-plugin-stripe",
+  "description": "Gatsby plugin that adds stripe.js to site",
+  "version": "1.0.0",
+  "author": "Nathan Beck <njosefbeck@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njosefbeck/gatsby-plugin-stripe.git"
+  },
+  "homepage": "https://github.com/njosefbeck/gatsby-plugin-stripe.git",
+  "bugs": {
+    "url": "https://github.com/njosefbeck/gatsby-plugin-stripe/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "stripe",
+    "stripe.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
+  },
+  "peerDependencies": {
+    "gatsby": ">=1"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-runtime": "6.26.0",
+    "cross-env": "5.2.0"
+  }
+}
