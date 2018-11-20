@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-## [1.0.1](https://github.com/njosefbeck/gatsby-plugin-stripe/compare/v1.0.0...v1.0.1) - 2018-11-20
+## 1.0.1 - 2018-11-20
 ### Changed
 - Move dependencies to devDependencies to prevent dependency pollution.
 
