@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-stripe",
   "description": "Gatsby plugin that adds stripe.js to site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Nathan Beck <njosefbeck@gmail.com>",
   "repository": {
     "type": "git",
