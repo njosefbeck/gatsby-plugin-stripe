@@ -29,3 +29,18 @@ module.exports = {
   ]
 }
 ```
+
+To load the `<script>` tag asyncronously, pass an 'async' option in `gatsby-config.js`.
+
+```javascript
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-stripe`,
+      options: {
+        async: true,
+      },
+    },
+  ],
+}
+```
