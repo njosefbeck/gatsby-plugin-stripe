@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React from "react";
 
 exports.onRenderBody = ({ setPostBodyComponents }, options) => {
   return setPostBodyComponents([
@@ -10,4 +10,4 @@ exports.onRenderBody = ({ setPostBodyComponents }, options) => {
       async={options.async}
     />
   ]);
-}
+};
