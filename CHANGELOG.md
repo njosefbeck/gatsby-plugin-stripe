@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Unreleased
 - None
 
+## [1.2.1](https://github.com/njosefbeck/gatsby-plugin-stripe/compare/v1.2.0...v1.2.1) - 2019-05-24
+### Changed
+- Add CODE_OF_CONDUCT.md
+- Add ESLint & Prettier to be consistent across all projects
+- Update build configuration to be inline with other gatsby plugin projects
+- Update README to link to the new Stripe Checkout
+- Update [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier/blob/master/CHANGELOG.md) from 4.1.0 to 4.3.0
+- Update [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import/blob/master/CHANGELOG.md) from 2.17.0 to 2.17.2
+- Update [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier/blob/master/CHANGELOG.md) from 3.0.1 to 3.1.0
+- Update [prettier](https://github.com/prettier/prettier/blob/master/CHANGELOG.md) from 1.17.0 to 1.17.1
+
 ## [1.2.0](https://github.com/njosefbeck/gatsby-plugin-stripe/compare/v1.1.0...v1.2.0) - 2018-12-27
 ### Changed
 - Add id to script tag, as recommended [here](https://github.com/stripe/react-stripe-elements#loading-stripejs-asynchronously). Thanks @delanebob for the suggestion.
