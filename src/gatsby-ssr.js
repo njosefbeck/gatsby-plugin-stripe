@@ -7,7 +7,9 @@ exports.onRenderBody = ({ setPostBodyComponents }, options) => {
       id="stripe-js"
       key="gatsby-plugin-stripe"
       src="https://js.stripe.com/v3/"
-      async={options.async}
+      async={options.async},
+      SameSite: "None",
+      Secure: "Secure"
     />
   ]);
 };
