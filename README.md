@@ -1,5 +1,11 @@
 # gatsby-plugin-stripe
 
+**THIS PROJECT IS NOW DEPRECATED. Read below for more details.**
+
+**Stripe has now published [a wrapper for Stripe.js](https://github.com/stripe/stripe-js) that you should use instead of this plugin. For an example of it used in a React project with Stripe Elements, see [these Stripe docs](https://stripe.com/docs/stripe-js/react#elements-provider).**
+
+**This plugin will no longer be maintained or updated.**
+
 A simple plugin that adds `stripe.js` to every page on your Gatsby site.
 
 This is especially useful for building out a Stripe integration using Stripe [Elements](https://stripe.com/docs/elements) or the new version of [Stripe Checkout](https://stripe.com/docs/payments/checkout).
